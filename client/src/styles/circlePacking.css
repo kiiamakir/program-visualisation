@@ -1,0 +1,54 @@
+html, body {
+    font-family: 'Nunito', sans-serif;
+    background-color: white;
+}
+
+.circle-container {
+    text-align: center;
+}
+.jj {
+  background-color: #243949;
+}
+
+.node {
+  align-content: center;
+    cursor: pointer;
+  }
+  
+  .node:hover {
+    stroke: #243949;
+    stroke-width: 2.0px;
+  }
+  
+  .node--leaf {
+    fill: white;
+  }
+  
+  .label {
+    min-height: 200px;
+    color: black;
+    font-size: 13px;
+    text-anchor: middle;
+    font-weight: 700;
+  }
+  
+  .leaf--label:hover {
+    font-weight: 900;
+    cursor: pointer;
+
+    }
+  
+  .node--root,
+  .node--leaf {
+    pointer-events: none;
+  }
+
+.text-container {
+  text-align: center;
+  max-width: 900px;
+  margin: 50px auto;
+}
+
+.front-page-header{
+  text-align: center;
+}

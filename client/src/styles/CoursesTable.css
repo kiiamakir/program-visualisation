@@ -1,0 +1,53 @@
+#tableCellContainer {
+    text-align: left;
+    font-family: 'Nunito', sans-serif;
+}
+
+#courseCode {
+    margin: 0;
+    font-weight: 700;
+}
+
+#courseName {
+    margin: 0;
+}
+
+#onlineElementsContainer {
+    display: flex;
+    flex-flow: row wrap;
+    font-family: 'Inika', serif;
+    gap: 10px
+}
+
+#elementLabelContainer {
+    border-radius: 12px;
+    padding: 4px 8px;
+}
+
+#elementText {
+    margin: 0;
+}
+
+#headerContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+#searchInput {
+    display:block;
+    width:100%;
+    margin:10px 0;
+    padding:10px;
+    border-radius:10px;
+    border: 1px solid #dbd9d9;
+    transition: .3s border-color;
+    width: 250px;
+    height: 40px;
+  }
+
+  #searchInput:hover {
+    border: 1px solid #aaa;
+  }

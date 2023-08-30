@@ -1,0 +1,41 @@
+#nav-icon {
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: 5px;
+  }
+    
+  #nav-bar {
+    font-family: "Nunito";
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    background-color: #243949;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #nav-bar a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 30px 60px
+  }
+
+#login-container {
+  margin-right: 60px;
+}
+#login-form {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+}
+
+.textField__label {
+  color: white !important;
+}
+
+#button-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}

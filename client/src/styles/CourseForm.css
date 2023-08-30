@@ -1,0 +1,35 @@
+
+form {
+    text-align: left;
+}
+
+#formContainer {
+    border-bottom: 1px solid gray;
+}
+
+#formRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    min-height: 70px;
+    max-height: 550px;
+    margin-bottom: 10px;
+}
+
+#formCourseCode {
+    text-align: left;
+    margin: 20px 0px;
+}
+
+#buttonContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 20px 10px;
+}
+
+input {
+    width: 320px;
+}
